@@ -135,9 +135,9 @@ header.active {
   transform: scale(1.1);
 }
 .home h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
-.SocailIcon i {
+.SocialIcon i {
   width: 35px;
   height: 35px;
   text-align: center;
@@ -147,7 +147,7 @@ header.active {
   transition: 0.5s;
   cursor: pointer;
 }
-.SocailIcon i:hover {
+.SocialIcon i:hover {
   color: #fff;
 }
 .facebook {
@@ -164,33 +164,19 @@ header.active {
 .instagram:hover {
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
-.twitter {
+.linkedin {
   color: #38a1f3;
-  border: 1px solid #38a1f3;
+  border: 1px solid #072033;
 }
-.twitter:hover {
-  background-color: #38a1f3;
+.linkedin:hover {
+  background-color: #072033;
 }
-.youtube {
-  color: #e92525;
-  border: 1px solid #e92525;
+.github {
+  color: #38a1f3;
+  border: 1px solid #49ce7e;
 }
-.youtube:hover {
-  background-color: #e92525;
-}
-.pinterest {
-  color: #c8232c;
-  border: 1px solid #c8232c;
-}
-.pinterest:hover {
-  background-color: #c8232c;
-}
-.dribbble {
-  color: #ee72a2;
-  border: 1px solid #ee72a2;
-}
-.dribbble:hover {
-  background-color: #ee72a2;
+.github:hover {
+  background-color: #49ce7e;
 }
 button {
   background: none;
@@ -212,9 +198,9 @@ button {
   box-shadow: 0 13px 27px 0 rgb(245 78 162 / 25%);
 }
 .home .right {
-  margin-top: 15%;
+  margin-top: 1%;
 }
-.home .SocailIcon {
+.home .SocialIcon {
   margin: 30px 0;
 }
 .home p {
@@ -231,23 +217,23 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
-.Branding {
+.branding {
   background-color: #08071c;
   color: #fff;
   margin-top: 35px;
   padding: 80px 0;
 }
-.Branding h1 {
+.branding h1 {
   font-size: 40px;
   color: #38d16a;
   margin-right: 20px;
 }
-.Branding h2 {
+.branding h2 {
   font-weight: 500;
   font-size: 22px;
   margin: 10px 0 20px 0;
 }
-.Branding p {
+.branding p {
   color: #fff;
   opacity: 0.7;
 }
@@ -275,6 +261,8 @@ h3 {
 }
 
 .about .img {
+  max-width: 100%;
+        max-height: 100%;
   position: relative;
   display: block;
   margin-left: auto;
@@ -283,6 +271,7 @@ h3 {
 }
 .about img {
   object-fit: contain;
+  
 }
 .about .img::after {
   content: "";
@@ -290,8 +279,7 @@ h3 {
   top: 0;
   left: -50px;
   right: 0;
-  background-color: #000;
-  width: 600px;
+  width: 550px;
   height: 86vh;
   z-index: -1;
 }
@@ -571,7 +559,7 @@ footer p {
   color: #fff;
   margin: 20px 0;
 }
-footer .SocailIcon i {
+footer .SocialIcon i {
   background-color: #fff;
   border: 1px solid #fff;
 }
