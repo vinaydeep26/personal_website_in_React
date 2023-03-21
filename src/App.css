@@ -397,7 +397,6 @@ h3 {
 .work {
   background-color: #08071c;
   padding: 40px 0;
-  height: 170vh;
 }
 .work .heading {
   text-align: center;
@@ -458,6 +457,7 @@ h3 {
   color: #fff;
 }
 .overlay {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -490,13 +490,13 @@ h3 {
 .work .box:nth-child(4)::after,
 .work .box:nth-child(3)::after,
 .work .box:nth-child(2)::after {
-  width: 380px;
+  width: 315px;
   height: 550px;
   background: rgba(18, 22, 25, 0.925);
 }
 .work .box:nth-child(6)::after,
 .work .box:nth-child(1)::after {
-  width: 758px;
+  width: 625px;
   height: 550px;
   background: rgba(18, 22, 25, 0.925);
 }
